@@ -3,15 +3,6 @@ ODE-toolbox
 
 **Automatic selection and generation of integration schemes for systems of ordinary differential equations**
 
-.. toctree::
-   :hidden:
-   :maxdepth: 1
-   :tocdepth: 1
-
-   index
-   Impressum <https://nest-initiative.org/impressum/>
-   Data protection <https://www.nest-initiative.org/data-protection/>
-
 .. role:: python(code)
    :language: python
 

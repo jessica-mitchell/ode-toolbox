@@ -100,7 +100,7 @@ for fn in matches:
 
 
 # The master toctree document.
-master_doc = "index"
+master_doc = "contents"
 
 source_suffix = ['.rst']
 
@@ -223,8 +223,9 @@ html_show_copyright = False
 # With this local 'make html' is broken!
 github_doc_root = ''
 
-intersphinx_mapping = {'https://docs.python.org/': None}
-
+intersphinx_mapping = {
+    "python": ("https://docs.python.org/3", None),
+                       }
 
 def skip(app, what, name, obj, would_skip, options):
     if name in ["__init__", "__str__"]:
