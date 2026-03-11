@@ -1,7 +1,7 @@
 sympy
 scipy
 numpy
-sphinx
+sphinx>=7.3
 readthedocs-sphinx-ext
 sphinx-rtd-theme
 sphinx-design
